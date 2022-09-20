@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-department-list',
   // templateUrl: './department-list.component.html',
-  template: `<h3>Department List</h3>
+  template: ` <h3>Department List</h3>
     <ul class="items">
       <li (click)="onSelect(department)" *ngFor="let department of departments">
         <span class="badge">{{ department.id }}</span> {{ department.name }}
